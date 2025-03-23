@@ -1,0 +1,6 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434 # 本地配置文件默认读本地
+      chat:
+        model: deepseek-r1:1.5b 
