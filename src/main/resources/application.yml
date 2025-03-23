@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: chat-demo
+
+server:
+  port: 8080
+  servlet:
+    context-path: /ai-chat
